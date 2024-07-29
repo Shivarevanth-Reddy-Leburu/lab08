@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: 100% 100%;
+}
+
+.App {
+    background-color: transparent;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    h1 {
+        color: black;
+    }
+  }
+
+  .App:hover {
+    background-color: white;
+    opacity: 0.6;
+    h1 {
+        color: black;
+    }
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: 2px solid #fda085;
+    border-radius: 5px;
+    width: 60%;
+    font-size: 15px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: black;
+  }
+
+  li {
+    padding: 10px;
+  }
+
+  .addButton {
+    background-color: transparent
+  }
+
+  .addButton:hover {
+    background-color: green;
+    color: aliceblue;
+  }
+
+  .save-button {
+    background-color: transparent
+  }
+
+  .save-button:hover {
+    background-color: yellow;
+    color: aliceblue;
+  }
+
+  .edit-button {
+    background-color: transparent
+  }
+
+  .edit-button:hover {
+    background-color: blue;
+    color: aliceblue;
+  }
+
+  .delete-button {
+    background-color: transparent
+  }
+
+  .delete-button:hover {
+    background-color: red;
+    color: aliceblue;
+  }
